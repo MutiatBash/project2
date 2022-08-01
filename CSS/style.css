@@ -70,4 +70,13 @@ background-repeat: no-repeat;
  }
 .socials{ align-items: center;
  }
+ .bodytext{
+  text-align: center;
+ }
+ .register{
+  font-size:11px;
+  text-align:center;
+  margin: 10px 80px 10px 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;}
 }
