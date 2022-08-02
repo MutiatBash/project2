@@ -5,6 +5,7 @@ color: white;
 background-repeat: no-repeat;
 background-size: cover;
 background-position:center ;
+max-width: 100%;
 }
 div{
  margin: 90px 30px 10px 830px;
@@ -32,10 +33,18 @@ color:hsl(257, 40%, 49%);
 border: solid white; 
 border-radius: 100px;
 text-align: justify;
-padding: 10px 0px 10px 0px;
+text-decoration: none;
+padding: 10px 0px;
 margin: 0px 320px 10px 830px;
 box-shadow: 0 3px 3px 0 #5A2077;
 text-align: center;
+font-family: 'Open Sans', sans-serif;
+}
+.register:hover{
+background-color: hsl(300, 69%, 71%);
+border-color:hsl(300, 69%, 71%) ;
+color: white;
+cursor: pointer;
 }
 .socials{
 margin: 150px 30px 10px 1150px;    
@@ -47,6 +56,11 @@ border-radius: 50px;
 padding: 8px;
 margin-left: 10px;
 }
+.fa-brands:hover{
+color: hsl(300, 69%, 71%);
+border-color:hsl(300, 69%, 71%) ;
+cursor: pointer;
+}
 .attribution { font-size: 11px; text-align: center; 
 position: relative;
 }
@@ -55,28 +69,42 @@ footer{
 position: fixed;
 bottom: 0px; right: 0px;
 }
-
-@media screen and (max-width: 375px){ 
+@media only screen and (max-width: 375px){ 
 body{
 background-color:hsl(257, 40%, 49%);
 background-image:url(../images/bg-mobile.svg);
 text-align: center;
 background-size: contain;
-background-position:right top ; 
-background-repeat: no-repeat; 
+background-position: top ; 
+background-repeat: no-repeat;
+align-items: center;
+}   
+.socials{
+align-items: center;
+border: solid 1px white;
+border-radius: 50px;
+padding: 8px;
 }
- .mockup{
-  position:relative;
- }
-.socials{ align-items: center;
- }
- .bodytext{
-  text-align: center;
- }
- .register{
-  font-size:11px;
-  text-align:center;
-  margin: 10px 80px 10px 80px;
-  padding-top: 10px;
-  padding-bottom: 10px;}
+.register{
+color: hsl(257, 40%, 49%);
+background-color: white;
+text-align: center;
+border:solid white;
+border-radius: 100px;
+margin: 10px 80px;
+padding:10px 0px;
 }
+.bodytext{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.mockup{
+position: absolute;
+margin: 20px 40px;
+}
+} 
