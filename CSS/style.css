@@ -111,13 +111,13 @@ cursor: pointer;
 }
 .logo{
     margin-top: 10px;
-    margin-right: 100px;
+    position:left;
     height:50px; width:100px;
 }  
 .mockup{
 width:350px;
 height:400px;
-margin: 20px 30px;
+margin: 10px 10px;
 }
 div{ 
 margin:20px 20px;
