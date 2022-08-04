@@ -9,11 +9,13 @@ background-color:hsl(257, 40%, 49%);
 color: white;
 background-repeat: no-repeat;
 background-size: cover;
-max-width: 100%;
+max-width: 1440px;
 }
 div{
  margin: 10px 30px;
- text-align: right;
+ text-align:left;
+ display: inline;
+ font-size:11px;
 }
 h1{
 font-family: 'Poppins', sans-serif;
@@ -73,8 +75,7 @@ body{
 background-color:hsl(257, 40%, 49%);
 background-image:url(../images/bg-mobile.svg);
 text-align: center;
-background-size: contain;
-background-position: right top ; 
+background-size: contain; 
 background-repeat: no-repeat;
 align-items: center;
 }   
