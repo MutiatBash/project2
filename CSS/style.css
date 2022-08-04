@@ -13,7 +13,7 @@ background-position:center ;
 max-width: 100%;
 }
 div{
- margin: 30px 30px 10px 30px;
+ margin: 10px 30px 10px 30px;
  text-align: left;
 }
 h1{
@@ -29,7 +29,7 @@ margin: 10px 0px 0px 40px;
 }
 .mockup{
 float: left;
-margin: 50px 0px 40px 50px;
+margin: 50px 0px 40px 20px;
 }
 .register{
 font-size: 14px;
@@ -52,7 +52,7 @@ color: white;
 cursor: pointer;
 }
 .socials{
-margin: 150px 30px 10px 1150px;    
+margin: 150px 30px 10px 50px;    
 }
 .fa-brands{
 align-items: right;
