@@ -101,10 +101,11 @@ padding:10px 0px;
 .logo{
     margin-top: 10px;
     margin-left: 10px;
-}
+    height:50px; width:100px;
+}  
 .mockup{
-width:700px;
-height:700px;
+width:500px;
+height:500px;
 display:block;
 margin-left:auto; margin-right:auto;
 }
