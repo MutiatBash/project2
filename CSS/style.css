@@ -96,14 +96,15 @@ padding:10px 0px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: center;
+    margin: 20px;
 }
 .logo{
     margin-top: 10px;
     margin-left: 10px;
 }
 .mockup{
-width:600px;
-height:500px;
+width:700px;
+height:700px;
 display:block;
 margin-left:auto; margin-right:auto;
 }
