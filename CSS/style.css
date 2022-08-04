@@ -15,7 +15,7 @@ div{
  margin: 10px 30px;
  text-align:left;
  display: inline;
- font-size:12px;
+ font-size:13px;
 }
 h1{
 font-family: 'Poppins', sans-serif;
@@ -29,18 +29,17 @@ font-weight: 400;
 margin: 10px 0px 0px 40px;
 }
 .mockup{
-float: left;
 margin: 50px 60px 40px 20px;
 }
 .register{
-font-size: 12px;
+font-size: 13px;
 background-color: white; 
 color:hsl(257, 40%, 49%); 
 border: solid white; 
 border-radius: 100px;
 text-align: justify;
 padding: 10px 0px;
-margin: 10px 30px;
+margin: 10px 60px;
 box-shadow: 0 3px 3px 0 #5A2077;
 text-align: center;
 font-family: 'Open Sans', sans-serif;
@@ -67,7 +66,6 @@ position: relative;
 }
 .attribution a {color: hsl(300, 69%, 71%);}
 footer{
-position: fixed;
 bottom: 0px; right: 0px;
 }
 @media only screen and (max-width: 375px){ 
@@ -75,6 +73,7 @@ body{
 background-color:hsl(257, 40%, 49%);
 background-image:url(../images/bg-mobile.svg);
 text-align: center;
+background-position:center;
 background-size: contain; 
 background-repeat: no-repeat;
 align-items: center;
@@ -82,6 +81,7 @@ align-items: center;
 .socials{
 align-items: center;
 padding: 8px;
+margin:10px;
 }
 .register{
 color: hsl(257, 40%, 49%);
@@ -106,7 +106,7 @@ display:block;
 margin-left:auto; margin-right:auto;
 }
 div{ 
-margin:auto;
+margin:20px 20px;
 text-align:center;
 }
 
